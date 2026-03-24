@@ -84,7 +84,7 @@ public class Main {
      * Handles the sign-up process.
      */
     public static void onSignUp() {
-        System.out.print("Enter your username: ");
+        System.out.print("Enter your: ");
         Scanner scanner = new Scanner(System.in);
         String username = scanner.nextLine();
         System.out.print("Enter your password: ");
